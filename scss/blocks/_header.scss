@@ -1,0 +1,15 @@
+.header {
+  text-transform: uppercase;
+  color: rgb(80, 80, 241);
+  font-style: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: black;
+  width: 1000px;
+  justify-content: space-between;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
